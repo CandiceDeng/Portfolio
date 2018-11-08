@@ -1,0 +1,343 @@
+html, body{
+  margin:0px; 
+  padding:0px;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header{
+  z-index: 1;
+  position:fixed; 
+  width:100%;  
+  background:rgba(0,0,0,0.1);
+}
+
+header a{
+  display:inline-block;
+  text-align:center;
+  font-family: Lobster, monospace;
+  text-decoration:none;
+  text-transform:uppercase; 
+  letter-spacing:2px; 
+  font-weight:700;
+}
+
+#homepage_sector1{
+  background: url("../pics/homepage.jpg");
+  position: relative;
+  background-size:cover;
+  background-position:center center;
+  overflow: hidden;
+  background-attachment:fixed;
+}
+
+#homepage_sector2{
+  background: url("../pics/homepage_middle.jpg");
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+
+.homepage_sector, .content{
+  text-align:center; 
+  position:relative;
+  width: 100%;
+}
+
+.inner{
+  min-height:600px;
+  position: relative;
+}
+
+.homepage_sector .inner{
+  background: rgba(0,0,0,0.3) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
+}
+
+.copy{
+  border: 1px solid;
+  position:absolute; 
+  top:20%; 
+  height:85%; 
+  margin-top:-5em; 
+  width:70%;
+  margin-left: 15%;
+}
+
+.homepage_sector h1, .homepage_sector p{ 
+  color: #f9f1e9;
+}
+
+.content h1, .content p{
+  color:#333;
+}
+
+h1{
+  margin:0px;
+  font-family: Lobster, monospace;
+  font-weight:400;
+  font-size:32px;
+  padding:0px 20px;
+}
+
+p{
+  font-family: 'Noto Sans', sans-serif; 
+  font-size:14px;
+  padding:0px 20px;
+}
+
+.main-title {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%,-50%,0);
+  text-transform: uppercase;
+  font-size: 4.2em;
+  letter-spacing: 0.1em;
+}
+
+
+/* ############################## Subpage Title ###################################### */ 
+#subpage-title{
+  background:url("../pics/sub-pages.jpg");
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+}
+
+#subpage-title, .subpage-content{
+  text-align:center; 
+  position:relative;
+  width: 100%;
+}
+
+#subpage-title::after{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.subpage-inner{
+  min-height:700px;
+  position: relative;
+}
+
+#subpage-title .subpage-inner{
+  background: rgba(0,0,0,0.1) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAYAAACddGYaAAAAD0lEQVQIW2NkQABjRmQOAAM+AGkQsDBSAAAAAElFTkSuQmCC) repeat;
+}
+
+.subpage-copy{
+  position:absolute; 
+  top:50%; 
+  height:10em; 
+  margin-top:-5em; 
+  width:100%;
+}
+
+#subpage-title h1{ 
+  color: #f9f1e9;
+}
+
+.subpage-content h1, .subpage-content p{
+  color:#333;
+}
+
+
+/* ############################## Navigation Bar ###################################### */ 
+#logo {
+  position:fixed;
+  float:left;
+  margin:8px 36px;
+}
+nav {
+  position:fixed;
+  width:100%;
+}
+nav ul {
+  list-style:none;
+  overflow:hidden;
+  color:#fff;
+  padding:0;
+  text-align:center;
+  margin:0;
+  transition: 1s;
+}
+nav.black ul {
+  background:rgba(146,168,209,0.9);
+}
+nav ul li {
+  display:inline-block;
+  padding:20px;
+}
+nav ul li a {
+  text-decoration:none;
+  color: #F7CAC9;
+  font-size:23px;
+}
+nav ul li.active a {
+  color: #fff;
+  transform: scale(1.1);
+}
+.menu-icon {
+  width:100%;
+  background:#000;
+  text-align:right;
+  box-sizing:border-box;
+  padding:15px 40px;  
+  color:#fff;
+  display:none;
+}
+
+/* ############################## Footer ###################################### */ 
+footer {
+    background-color: rgb(146,168,209);
+    position: static;
+    left: 0;
+    bottom: 0;
+    height: 1 00px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.icons {
+  margin-top: -20px;
+}
+
+.contact-us {
+  display: inline;
+  color: #F7CAC9;
+  width: 100%;
+}
+
+.social i {
+  font-size: 50px; 
+  margin: 20px 0; 
+  color: #F7CAC9; 
+  padding: 8px; 
+  transition: 0.5s
+}
+
+.social i:hover, nav ul li a:hover {
+  color: #5F4B8B;
+  transform: scale(1.2)
+}
+
+.contact-head {
+  display: inline;
+  width: 70%; 
+  letter-spacing: 2px; 
+  
+}
+
+.credential p{
+  float: right;
+  margin-top: 45px;
+  width: 40%;
+  font-family: Lobster, monospace;
+  font-size: 20px;
+  text-align: right;
+}
+
+ul li {
+  list-style: inside; 
+}
+
+/* ############################## Resume ###################################### */
+.cover-letter {
+  margin-top: 20px !important;
+}
+.cover-letter, .plain-resume, .detailed-resume {
+  display: block;
+  top: -50%;
+  width: 1000px;
+  height: 1300px;
+  margin: 0 auto;
+  /*border: solid 1px;*/
+  text-align: center;
+  padding: 10px;
+}
+button a {
+  text-decoration: none;
+  color: inherit;
+}
+.btn {
+  margin-top: 20px !important;
+  float: right;
+  padding: 10px 35px;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 25px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+.btn.aqua.outline {
+  margin: 0 auto;
+  border-color: #F7CAC9;
+  color: #F7CAC9;
+}
+.btn.aqua.outline:hover {
+  color: #fff;
+  border-color: #5F4B8B;
+  background: #5F4B8B;
+}
+.btn.outline {
+  background: transparent;
+  border: 2px solid gray;
+}
+.btn.outline:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+/*Responsive design CSS*/
+@media(max-width: 980px) {
+  #logo {
+    position: fixed;
+    top: 0;
+    margin-top: 2px;
+  }
+  
+  nav ul {
+    max-height: 0px;
+    background: #000;
+  }
+  
+  nav.black ul {
+    background: #000;
+  }
+  
+  .showing {
+    max-height: 25em;
+  }
+
+  nav ul li {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+  }
+  
+  .menu-icon {
+    display: inline-block;
+  }
+
+  nav ul li.last-nav-item {
+    margin-bottom: 20px;
+  }
+
+  .cover-letter, .plain-resume, .detailed-resume {
+    width: 750px;
+    height: 1050px;
+  }
+}
+
+
+
