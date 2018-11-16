@@ -23,7 +23,7 @@
 		<section id="homepage_sector1" class="homepage_sector">
 		<canvas id="demo-canvas"></canvas>
 		  <div class="main-title">
-		  	<h1>Choice mountains bro</h1>
+		  	<h1>Try mountains bro</h1>
 		  </div>
 		</section>
 		<section class="content">

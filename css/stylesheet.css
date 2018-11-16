@@ -19,7 +19,7 @@ header{
 header a{
   display:inline-block;
   text-align:center;
-  font-family: Lobster, monospace;
+  font-family: Gotham, monospace;
   text-decoration:none;
   text-transform:uppercase; 
   letter-spacing:2px; 
@@ -125,7 +125,7 @@ p{
 }
 
 .subpage-inner{
-  min-height:700px;
+  min-height:600px;
   position: relative;
 }
 
@@ -179,7 +179,7 @@ nav ul li {
 nav ul li a {
   text-decoration:none;
   color: #F7CAC9;
-  font-size:23px;
+  font-size: 1.8em;
 }
 nav ul li.active a {
   color: #fff;
@@ -286,15 +286,13 @@ button a {
   color: #fff;
   border-color: #5F4B8B;
   background: #5F4B8B;
+  cursor: pointer;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 .btn.outline {
   background: transparent;
   border: 2px solid gray;
-}
-.btn.outline:hover {
-  cursor: pointer;
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
 }
 
 /*Responsive design CSS*/

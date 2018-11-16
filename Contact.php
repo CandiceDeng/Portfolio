@@ -15,7 +15,7 @@
 		<title>Nan's Portfolio</title>
 		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 		<script src="https://cdn.rawgit.com/sirxemic/jquery.ripples/master/dist/jquery.ripples-min.js"></script>
-		<script src= "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+		<script src="https://code.angularjs.org/1.3.0-rc.1/angular.min.js"></script>
 	</head>
 	<body>
 		<?php include "header.php"; ?>
