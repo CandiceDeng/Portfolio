@@ -1,10 +1,10 @@
-
 .contact-form {
   height: 900px;
 }
 .contact-form h1 {
   font-size: 2.5em;
   margin: 40px;
+  margin-top: -10px;
 }
 .paper {
   position: absolute;
@@ -58,4 +58,8 @@ td
 {
     margin-top:10px;
     margin-left:8px;
+}
+
+::-webkit-scrollbar {
+    background: transparent;  /* optional: just make scrollbar invisible */
 }

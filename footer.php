@@ -10,6 +10,7 @@ echo "
         <a href=\"https://www.facebook.com/nan.deng.7503\"><i class=\"fa fa-facebook-f\"></i></a>
         <a href=\"https://www.pinterest.com/nandeng7503/\"><i class=\"fa fa-pinterest\"></i></a>
         <a href=\"https://www.instagram.com/candicedeng86\"><i class=\"fa fa-instagram\"></i></a>
+        <a href=\"mailto:dengnan@umich.edu\"><i class=\"fa fa-envelope\"></i></a>
       </div>
     </div>
     <div class=\"contact-us credential\"><p>&copy; 2018 by Nan Deng. All rights reserved.</p></div>

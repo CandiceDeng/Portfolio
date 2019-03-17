@@ -11,6 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster"/>
+    <link href='https://fonts.googleapis.com/css?family=Bungee' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/stylesheet.css" rel="stylesheet">
     <link href="css/projects.css" rel="stylesheet">
@@ -27,8 +28,10 @@
     <section id="subpage-title">
       <div class="subpage-inner">
         <div class="subpage-copy">
-        <h1>Dem some big ass caves</h1>
-        <p>You could probably fit in there ;)</p>
+        <i class="fa fa-quote-left fa-3x quote left-quote"></i> 
+          <h1 class="quote lead">In the one and only true way. The object-oriented version of 'Spaghetti code' is, of course, 'Lasagna code'. (Too many layers).</h1>
+          <br/><h1 style="text-align: right; font-size: 2em">--Roberto Waltman</h1>
+        <i class="fa fa-quote-right fa-3x quote right-quote"></i>
         </div>
       </div>
     </section>

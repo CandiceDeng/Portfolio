@@ -328,7 +328,7 @@
 }
 
 .overflow-wrapper {
-  max-height: 650px;
+  min-height: 650px;
   overflow-x: hidden;
   overflow-y: scroll;
 }

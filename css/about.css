@@ -22,7 +22,7 @@
     position: absolute;
     opacity: 0;
     overflow: hidden;
-    width: 40%;
+    width: 50%;
     color: #F7CAC9;
 }
 
@@ -54,9 +54,117 @@
 @keyframes rotateWords {
     0% { opacity: 0; width: 0; }
     10% { opacity: 0.3; width: 0; }
-    20% { opacity: 1; width: 40%; }
-    27% { opacity: 0; width: 40%; }
+    20% { opacity: 1; width: 50%; }
+    27% { opacity: 0; width: 50%; }
     100% { opacity: 0; }
+}
+
+/* ############################ Timeline ######################################## */
+section#timeline {
+  width: 80%;
+  margin: 40px auto;
+  position: relative;
+}
+section#timeline:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin: 0 0 0 -1px;
+  width: 2px;
+  height: 100%;
+  background: rgba(146,168,209,0.7);
+}
+section#timeline article {
+  border-color: #000;
+  position: relative;
+}
+section#timeline article:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+section#timeline article div.time {
+  width: 40%;
+  float: left;
+  border-radius: 6px;
+}
+section#timeline article div.time span.date {
+  display: block;
+  width: 60px;
+  height: 60px;
+  padding: 5px 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -32px;
+  border-radius: 100%;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
+  background: rgb(146,168,209);
+  color: #fff;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 7px rgb(146,168,209);
+}
+section#timeline article div.time span.date span {
+  display: block;
+  text-align: center;
+}
+section#timeline article div.time span.date span.day {
+  font-size: 10px;
+}
+section#timeline article div.time span.date span.month {
+  font-size: 18px;
+}
+section#timeline article div.time span.date span.year {
+  font-size: 10px;
+}
+
+.activeYear{
+  background:#ED473B; 
+  color:#fff;
+  border-color:#fff;
+}
+
+section#timeline article div.time h2 {
+  padding: 15px;
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: -1px;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+}
+section#timeline article div.time h2:after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: -5px;
+    width: 10px; 
+    height: 10px;
+  -webkit-transform: rotate(-45deg);
+}
+section#timeline article div.time p {
+  padding: 15px;
+  margin: 0;
+  font-size: 14px;
+  border: 1px solid rgb(146,168,209);
+  color: #656565;
+  border-radius: 0 0 6px 6px;
+}
+section#timeline article:nth-child(2n+2) div.time {
+  float: right;
+}
+section#timeline article:nth-child(2n+2) div.time h2:after {
+  left: -5px;
+}
+section#timeline article div.time h2 {
+  background: rgb(146,168,209);
+}
+section#timeline article div.time h2:after {
+  background: rgb(146,168,209);
 }
 
 /* ############################ Media Gallery ######################################## */
@@ -67,11 +175,11 @@ img {
 
 .container {
   margin: auto;
-  padding-top: 80px;
+  padding-top: 40px;
   padding-bottom: 80px; 
 }
 .img-grid {
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 @media screen and (max-width: 980px) {
@@ -88,12 +196,7 @@ img {
   font-size: 36px;
   text-align: center;
   margin-bottom: 25px; 
-  color: rgb(146,168,209);
-}
-
-.accent-text {
-  font-family: "Dancing Script", cursive;
-  color: #F7CAC9; 
+  color: #5F4B8B;
 }
 
 li {
@@ -144,7 +247,7 @@ li {
   width: 28%;
   margin: 20px;
   height: 320px;
-  cursor: pointer;
+  cursor: pointer; 
 }
 .img-container img {
   border-radius: 10px; 
@@ -156,7 +259,7 @@ li {
   height: 320px;
   top: 0;
   left: 0;
-  background: rgba(146,168,209,0.3);
+  background: rgba(146,168,209,0.5);
   border-radius: 10px;
   outline: 1px solid #fff;
   outline-offset: -15px;
@@ -172,7 +275,7 @@ li {
 
 .img-overlay-text {
   position: inherit;
-  top: 50%;
+  top: 40%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -184,4 +287,10 @@ li {
 }
 .img-overlay-text p {
   color: #fff; 
+}
+
+@media(max-width: 980px){
+  #filter-btn .button {
+    padding: 10px 10px;
+  }
 }

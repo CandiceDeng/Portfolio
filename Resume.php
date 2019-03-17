@@ -11,6 +11,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster"/>
+		<link href='https://fonts.googleapis.com/css?family=Bungee' rel='stylesheet'>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="css/stylesheet.css" rel="stylesheet">
 		<link rel = "shortcut icon" href = "pics/logo.png">
@@ -23,17 +24,19 @@
 		<section id="subpage-title">
 		  <div class="subpage-inner">
 		    <div class="subpage-copy">
-		    <h1>Dem some big ass caves</h1>
-		    <p>You could probably fit in there ;)</p>
+		    <i class="fa fa-quote-left fa-3x quote left-quote"></i> 
+				<h1 class="quote lead">Perfection [in design] is achieved, not when there is nothing more to add, but when there is nothing left to take away.</h1>
+				<br/><h1 style="text-align: right; font-size: 2em">--Antoine de Saint-Exupéry</h1>
+			<i class="fa fa-quote-right fa-3x quote right-quote"></i>
 		    </div>
 		  </div>
 		</section>
 		<div class="cover-letter">
-			<embed src="files/Resume_NanD.pdf" style="width:100%;height:90%;” scale="tofit"/>
+			<embed src="files/Resume_NanDeng.pdf" style="width:100%;height:90%;” scale="tofit"/>
 			<button class="btn outline aqua"><a href="files/Resume_NanD.pdf" download>Download CoverLetter</a></button>
 		</div>
 		<div class="plain-resume">
-			<embed src="files/Resume_NanD.pdf" style="width:100%;height:90%;” scale="tofit"/>
+			<embed src="files/Resume_NanDeng.pdf" style="width:100%;height:90%;” scale="tofit"/>
 			<button class="btn outline aqua"><a href="files/Resume_NanD.pdf" download>Download Resume</a></button>
 		</div>
 	  	<div class="detailed-resume">

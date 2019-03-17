@@ -10,6 +10,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lobster"/>
+		<link href='https://fonts.googleapis.com/css?family=Bungee' rel='stylesheet'>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="css/stylesheet.css" rel="stylesheet">
 		<link href="css/hex.css" rel="stylesheet">

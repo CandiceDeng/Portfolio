@@ -19,7 +19,7 @@ header{
 header a{
   display:inline-block;
   text-align:center;
-  font-family: Gotham, monospace;
+  font-family: "bungee",sans-serif,monospace;
   text-decoration:none;
   text-transform:uppercase; 
   letter-spacing:2px; 
@@ -135,18 +135,36 @@ p{
 
 .subpage-copy{
   position:absolute; 
-  top:50%; 
+  top:40%; 
   height:10em; 
   margin-top:-5em; 
   width:100%;
+  text-align: center;
 }
 
 #subpage-title h1{ 
+  margin: 0 auto;
   color: #f9f1e9;
+  width: 800px;
+  text-align: left;
+  line-height: 1.5em;
+  font-size: 32px;
 }
 
 .subpage-content h1, .subpage-content p{
   color:#333;
+}
+
+.quote {
+  color: #fff;
+}
+
+.left-quote {
+  margin-right: 55%;
+}
+
+.right-quote {
+  margin-left: 55%;
 }
 
 
@@ -179,7 +197,7 @@ nav ul li {
 nav ul li a {
   text-decoration:none;
   color: #F7CAC9;
-  font-size: 1.8em;
+  font-size:23px;
 }
 nav ul li.active a {
   color: #fff;
@@ -286,13 +304,15 @@ button a {
   color: #fff;
   border-color: #5F4B8B;
   background: #5F4B8B;
-  cursor: pointer;
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
 }
 .btn.outline {
   background: transparent;
   border: 2px solid gray;
+}
+.btn.outline:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
 }
 
 /*Responsive design CSS*/
@@ -334,6 +354,14 @@ button a {
   .cover-letter, .plain-resume, .detailed-resume {
     width: 750px;
     height: 1050px;
+  }
+
+  .left-quote {
+    margin-right: 80%;
+  }
+
+  .right-quote {
+    margin-left: 80%;
   }
 }
 
