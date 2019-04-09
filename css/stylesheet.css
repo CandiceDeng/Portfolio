@@ -333,7 +333,7 @@ button a {
   }
   
   .showing {
-    max-height: 25em;
+    max-height: 30em;
   }
 
   nav ul li {
@@ -362,6 +362,14 @@ button a {
 
   .right-quote {
     margin-left: 80%;
+  }
+  
+  .contact-head {
+      letter-spacing: 0;
+  }
+  
+  .social i {
+      font-size: 45px;
   }
 }
 
